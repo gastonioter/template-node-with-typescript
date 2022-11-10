@@ -1,0 +1,16 @@
+{
+  "name": "demo-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+   "build": "tsc --build tsconfig.json && node dist/app.js",
+   "build:watch": "tsc --build tsconfig.json --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
